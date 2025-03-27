@@ -1,0 +1,8 @@
+flask
+pandas
+matplotlib
+joblib
+numpy
+scikit-learn
+gunicorn
+MetaTrader5 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XAUUSD Price Prediction</title>
+</head>
+<body>
+    <h1>XAUUSD Price Chart (5-Hour Interval)</h1>
+    <img src="{{ url_for('static', filename='xauusd_chart.png') }}" alt="XAUUSD Chart">
+
+    <h2>Next Candle Prediction:</h2>
+    <p><strong>Bullish Probability:</strong> {{ bullish }}%</p>
+    <p><strong>Bearish Probability:</strong> {{ bearish }}%</p>
+</body>
+</html>
