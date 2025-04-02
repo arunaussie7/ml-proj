@@ -33,9 +33,8 @@ ENV/
 
 # Project specific
 *.log
-*.pkl
-static/xauusd_chart.png
 .env
+static/xauusd_chart.png
 
 # OS specific
 .DS_Store
